@@ -1,0 +1,29 @@
+{
+  "fulfillmentText": "%FULFILLMENT_TEXT%",
+  "fulfillmentMessages": [{
+    "text": {
+      "text": [
+        "%FULFILLMENT_TEXT%"
+      ]
+    }
+  }],
+  "source": "SOURCE",
+  "payload": {
+    "google": {
+      "expectUserResponse": 1,
+      "richResponse": {
+        "items": [{
+          "simpleResponse": {
+            "textToSpeech": "%FULFILLMENT_TEXT%",
+            "displayText": "%FULFILLMENT_TEXT%"
+          }
+        }]
+      }
+    }
+  },
+  "outputContexts": [{
+    "name": "INTENT_NAME",
+    "lifespanCount": 1,
+    "parameters": "PARAMETERS"
+  }]
+}
